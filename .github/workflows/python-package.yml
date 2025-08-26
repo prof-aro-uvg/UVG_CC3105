@@ -45,6 +45,7 @@ jobs:
     - name: Upload Package
       uses: actions/upload-artifact@v4.6.2
       with:
+        name: wheel-dist-${{ matrix.python-version }}
         path: ./movie_etl/dist/*.whl
       
     
