@@ -1,4 +1,4 @@
-[![Python CD](https://github.com/prof-aro-uvg/UVG_CC3105/actions/workflows/python-publish-v2.yml/badge.svg)](https://github.com/prof-aro-uvg/UVG_CC3105/actions/workflows/python-publish-v2.yml)
+[![Python CI/CD](https://github.com/prof-aro-uvg/UVG_CC3105/actions/workflows/python-publish-v2.yml/badge.svg)](https://github.com/prof-aro-uvg/UVG_CC3105/actions/workflows/python-publish-v2.yml)
 ---
 
 # UVG_CC3105
