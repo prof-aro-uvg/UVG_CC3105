@@ -1,6 +1,10 @@
 # UVG_CC3105
 Repo for MLOps Course (CC3105) at UVG
 
+---
+[![Python CD](https://github.com/prof-aro-uvg/UVG_CC3105/actions/workflows/python-publish-v2.yml/badge.svg)](https://github.com/prof-aro-uvg/UVG_CC3105/actions/workflows/python-publish-v2.yml)
+---
+
 ## Estimated Costs and Usage
 
 **Real usage scenario:**
