@@ -29,7 +29,7 @@ jobs:
       - name: Download Package
         uses: actions/download-artifact@v5.0.0
         with:
-          name: wheel-dist-${{ python-version }}
+          name: wheel-dist-3.10
           path: ./movie_etl/dist/*.whl
           
           
