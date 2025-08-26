@@ -39,6 +39,12 @@ jobs:
       run: |
         pytest .
     - name: Build Package
+      working-directory: ./movie_etl
       run: |
-        cd ./movie_etl
         python -m build
+    - name: Upload Package
+      uses: actions/upload-artifact@v4.6.2
+      with:
+        path: ./movie_etl/dist/*.whl
+      
+    
