@@ -58,7 +58,7 @@ jobs:
         uses: actions/download-artifact@v5.0.0
         with:
           name: wheel-dist-3.10
-          path: /dist/*.whl
+          path: ./movie_etl/dist/*.whl
 
       - name: Publish release distributions to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
