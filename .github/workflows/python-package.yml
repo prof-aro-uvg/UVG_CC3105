@@ -40,4 +40,5 @@ jobs:
         pytest .
     - name: Build Package
       run: |
+        cd ./movie_etl
         python -m build
