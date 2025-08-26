@@ -4,7 +4,8 @@ setup(
     name="movie_etl",
     version="0.1.0",
     packages=find_packages(),
-    author="Your Name",
+    include_package_data=True,
+    author="ARO",
     description="A simple ETL pipeline for movie ratings",
     install_requires=[],
     classifiers=[
